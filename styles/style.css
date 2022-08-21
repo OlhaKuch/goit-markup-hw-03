@@ -342,6 +342,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   color: var(--text-color);
+  margin-bottom: 0;
 }
 .details {
   border: 1px solid #eeeeee;
