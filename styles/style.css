@@ -18,7 +18,7 @@ h1,
 h2,
 h3,
 p {
-  margin-top: 0;
+  margin: 0;
 }
 ul,
 li {
@@ -111,13 +111,15 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
-.current {
+.studio-logo,
+.footer-logo {
   color: var(--accent-color);
 }
-.studio-logo:hover,
-.footer-logo:hover,
-.studio-logo:focus,
-.footer-logo:focus {
+
+.studio-logo-style:hover,
+.studio-logo-style:focus,
+.footer-logo-style:hover,
+.footer-logo-style:focus {
   color: var(--accent-color);
 }
 .studio-logo-style {
@@ -230,6 +232,9 @@ body {
   text-align: center;
   color: var(--names-color);
 }
+.our-team-all {
+  margin-bottom: 50px;
+}
 .our-team {
   background-color: #f5f4fa;
 }
@@ -241,7 +246,7 @@ body {
 }
 .text-position {
   padding-top: 30px;
-  padding-left: 30px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -275,7 +280,7 @@ body {
   font-style: normal;
   line-height: 1.71;
 }
-.connect-variants {
+.connect-address {
   margin-top: 20px;
 }
 .connect-item:not(:last-child) {
@@ -295,6 +300,9 @@ body {
 .address-map:focus .address-mail:focus,
 .number-call:focus,
 .number-call:focus {
+  color: var(--accent-color);
+}
+.navigation-list .link.current {
   color: var(--accent-color);
 }
 /*Portfolio_blank*/
@@ -342,7 +350,6 @@ body {
   font-size: 16px;
   line-height: 1.88;
   color: var(--text-color);
-  margin-bottom: 0;
 }
 .details {
   border: 1px solid #eeeeee;
